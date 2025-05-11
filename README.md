@@ -5,7 +5,7 @@ A simple text-based UI application that displays the number of flights within a 
 ## Features
 
 - Enter your location using a human-readable address.
-- View a list of flights within a specified radius.
+- View a list of flights within a specified radius, with distances in miles.
 - See detailed information about each flight, including airline name and military status.
 - Follow a specific flight.
 - Real-time updates of flight data.
@@ -24,7 +24,7 @@ A simple text-based UI application that displays the number of flights within a 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pfrederiksen/nearflights.git
    cd nearflights
    ```
 
@@ -48,7 +48,7 @@ A simple text-based UI application that displays the number of flights within a 
 
 2. Enter your address when prompted. The app will convert it to latitude and longitude coordinates.
 
-3. Specify the radius (in kilometers) and update interval (in seconds) for fetching flight data.
+3. Specify the number of closest flights to display and the update interval in seconds.
 
 4. Use the up/down arrow keys to navigate the flight list, press Enter to see detailed information, press 'r' to refresh the data, and 'q' to quit.
 
